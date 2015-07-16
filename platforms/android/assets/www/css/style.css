@@ -1,0 +1,320 @@
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('C_Regular.ttf') format('truetype');
+}
+.bar.bar-stable {
+	background-color: #F4CEC2;
+}
+.bar .title.title-left {
+	text-align: center;
+	font-size: 28px;
+	font-family: "MyWebFont";
+	font-weight: bold;
+}
+#vue {
+	width: 100%;
+	min-height: 640px;
+}
+.success {
+	background-color: #FCF0E4; 
+}
+.success p {
+	color: #D7859C;
+	font-size: 25px;
+	margin-top: 80px;
+	font-family: 'MyWebFont';
+	text-align: center;
+}
+#doctor {
+	margin-left: 70px;
+	margin-top: 40px;
+}
+#backToDash {
+	float: left;
+	font-size: 27px;
+	color: #FCF0E4;
+	font-family: 'MyWebFont';
+	background-color: #B5A79A;
+	display: block;
+	position: absolute;
+	top: 456px;
+	margin-left: 45px;
+	border: 1px solid rgb(144, 141, 141);
+	padding: 5px;
+	border-radius: 7px;
+	border-color: #B5A79A;
+	width: 77%;
+}
+.co {
+	background-color: #D7859C;
+	padding: 17px;
+	text-align: center;
+	margin-bottom: 1px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FCF0E4;
+	font-family: 'MyWebFont';
+	margin-top: 43px;
+}
+.inscr {
+	background-color: #B5A79A;
+	padding: 17px;
+	text-align: center;
+	margin-bottom: 1px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'MyWebFont';
+	color: #FCF0E4;
+}
+#personnel {
+	background-color: #D7859C;
+	border-color: #D7859C;
+	border: 2px solid #D7859C;
+	padding: 5px;
+	width: 100%;
+	color: #FCF0E4;
+}
+#validate {
+	background-color: #B5A79A;
+	border-color: #B5A79A;
+	border: 2px solid #B5A79A;
+	padding: 5px;
+	width: 100%;
+	font-family: 'MyWebFont';
+	color: #FCF0E4;
+}
+#pusheen {
+	margin-left: 52px;
+	float: left;
+	margin-top: -20px;
+	display: block;
+}
+#take {
+	float: left;
+	position: absolute;
+	bottom: 27px;
+	padding: 20px;
+	border-radius: 31px;
+	margin-left: 140px;
+	background-color: grey;
+	opacity: 0.8;
+	width: 79px;
+	font-family: 'MyWebFont';
+	display: block;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#list {
+	float: left;
+	font-size: 27px;
+	color: #FCF0E4;
+	background-color: #5C544A;
+	display: block;
+	position: absolute;
+	top: 456px;
+	margin-left: 45px;
+	border: 1px solid rgb(144, 141, 141);
+	padding: 5px;
+	border-radius: 7px;
+	border-color: #5C544A;
+	width: 77%;
+	font-family: 'MyWebFont';
+}
+#recus {
+	float: left;
+	font-size: 27px;
+	color: #FCF0E4;
+	background-color: #614530;
+	display: block;
+	position: absolute;
+	top: 532px;
+	margin-left: 45px;
+	border: 1px solid rgb(144, 141, 141);
+	padding: 5px;
+	border-radius: 7px;
+	border-color: #614530;
+	width: 77%;
+	font-family: 'MyWebFont';
+}
+.dashboard {
+	margin-top: 0px;
+	width: 100%;
+	min-height: 640px;
+	position: fixed;
+	display: block;
+	background-color: #FCF0E4;
+}
+.dashboard p {
+	float: left;
+	margin-top: -29px;
+	margin-left: 37px;
+	display: block;
+	font-family: 'MyWebFont';
+}
+.dashboard #someBla {
+	float: left;
+	margin-top: 2px;
+	margin-left: 35px;
+	display: block;
+	font-family: 'MyWebFont';
+}
+.connex {
+	display: block;
+}
+.inscrip {
+	display: block;
+}
+.list-container {
+	display: block;
+	background-color: #FCF0E4;
+	font-weight: bold;
+	margin-top: 45px;
+	min-height: 2000px;
+	font-family: 'MyWebFont';
+}
+p {
+	color: black;
+	font-weight: bold;
+	font-family: 'MyWebFont';
+}
+.recipe-container {
+	display: block;
+	background-color: #FCF0E4;
+	color: black;
+	overflow: scroll;
+	min-height: 2000px;
+	font-family: 'MyWebFont';
+}
+#dashB {
+	width: 100%;
+	background-color: #512F10;
+	border-color: #512F10;
+	border: 1px solid #512F10;
+	padding: 15px;
+	font-weight: bold;
+	color: #FCF0E4;
+	font-size: 20px;
+	font-family: 'MyWebFont';
+}
+#notif {
+	width: 100%;
+	background-color: #B5A79A;
+	border-color: #B5A79A;
+	border: 1px solid #B5A79A;
+	padding: 15px;
+	font-weight: bold;
+	color: #FCF0E4;
+	font-size: 20px;
+	font-family: 'MyWebFont';
+}
+#dashBo {
+	width: 100%;
+	background-color: #512F10;
+	border-color: #512F10;
+	border: 1px solid #512F10;
+	margin-top: 44px;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: #FCF0E4;
+	font-family: 'MyWebFont';
+	font-size: 20px;
+}
+#liste {
+	width: 100%;
+	background-color: #B5A79A;
+	border-color: #B5A79A;
+	border: 1px solid #B5A79A;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: #FCF0E4;
+	font-size: 20px;
+	font-family: 'MyWebFont';
+}
+#newPicture {
+	float: left;
+	font-size: 27px;
+	color: #FCF0E4;
+	background-color: #B5A79A;
+	display: block;
+	position: absolute;
+	top: 382px;
+	margin-left: 45px;
+	border: 1px solid rgb(144, 141, 141);
+	padding: 5px;
+	border-radius: 7px;
+	border-color: #B5A79A;
+	width: 77%;
+	font-family: 'MyWebFont';
+}
+#friendListing {
+	text-align: center;
+	font-size: 18px;
+	background-color: #FCF0E4;
+	color: black;
+	font-family: 'MyWebFont';
+}
+#push {
+	margin-top: 81px;
+	float: left;
+	margin-left: 60px;
+}
+.scroll-content {
+	background-color: #FCF0E4;
+}
+#troissecondes {
+	margin-top: -9px;
+	float: left;
+	margin-left: -6px;
+	font-size: 32px;
+	color: #FCF0E4;
+	background-color: #B4A89C;
+	border: 2px solid #B4A89C;
+	border-radius: 6px;
+	width: 14%;
+	font-family: 'MyWebFont';
+	border-color: #B4A89C;
+}
+#cinqsecondes {
+	background-color: #B4A89C;
+	border: 2px solid #B4A89C;
+	color: #FCF0E4;
+	margin-top: -9px;
+	float: left;
+	margin-left: 20px;
+	font-size: 32px;
+	border-radius: 6px;
+	width: 15%;
+	font-family: 'MyWebFont';
+	border-color: #B4A89C;
+}
+#dixsecondes {
+	color: #FCF0E4;
+	background-color: #B4A89C;
+	border: 2px solid #B4A89C;
+	margin-top: -9px;
+	float: left;
+	margin-left: 24px;
+	font-size: 32px;
+	border-radius: 6px;
+	font-family: 'MyWebFont';
+	width: 54px;
+	border-color: #B4A89C;
+}
+#pictureListing {
+	text-align: center;
+	font-size: 18px;
+	background-color: #FCF0E4;
+	color: black;
+	font-family: 'MyWebFont';
+	margin-top: 5px;
+}
+#photoSnap {
+	float: left;
+	margin-top: -701px;
+	min-height: 650px;
+	width: 100%;
+}

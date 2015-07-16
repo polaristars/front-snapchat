@@ -1,0 +1,10 @@
+<ion-scroll direction="y" style="height: 900px">
+<div class="list-container" ng-controller="ListController">
+	<!--liste des inscrits-->
+	<button id="dashB" ng-click="dashB()">Dashboard</button>
+	<button id="notif" ng-click="notif()">Notifications</button>
+	<div id="friendListing" ng-repeat="friend in friends" ng-click="friendListing()">
+		{{friend.username}}
+	</div>
+</div>
+</ion-scroll>

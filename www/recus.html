@@ -1,0 +1,13 @@
+<ion-scroll direction="y" style="height: 900px">
+<div class="recipe-container" ng-controller="RecipeController">
+	<!--liste des recus-->
+	<button id="dashBo" ng-click="dashBo()">Dashboard</button>
+	<button id="liste" ng-click="liste()">Amis</button>
+	<div id="pictureListing" ng-repeat="picture in pictures">
+		<div ng-click="pictureListing(picture.url, picture.temps, picture.token, picture.username)">
+			<p>{{picture.username}}</p>
+		</div>
+	</div>
+	<img src="{{ url }}" alt="photo" id="photoSnap">
+</div>
+</ion-scroll>
